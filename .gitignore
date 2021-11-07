@@ -1,0 +1,55 @@
+# server files
+
+BuildQuote Server/*.swp
+BuildQuote Server/*.*~
+BuildQuote Server/project.lock.json
+BuildQuote Server/.DS_Store
+BuildQuote Server/*.pyc
+
+# User-specific files
+BuildQuote Server/*.suo
+BuildQuote Server/*.user
+BuildQuote Server/*.userosscache
+BuildQuote Server/*.sln.docstates
+
+# Build results
+BuildQuote Server/[Dd]ebug/
+BuildQuote Server/[Dd]ebugPublic/
+BuildQuote Server/[Rr]elease/
+BuildQuote Server/[Rr]eleases/
+BuildQuote Server/x64/
+BuildQuote Server/x86/
+BuildQuote Server/build/
+BuildQuote Server/bld/
+BuildQuote Server/[Bb]in/
+BuildQuote Server/[Oo]bj/
+BuildQuote Server/msbuild.log
+BuildQuote Server/msbuild.err
+BuildQuote Server/msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+
+# frontend files
+
+# dependencies
+buildquote-app/node_modules
+buildquote-app/.pnp
+buildquote-app/.pnp.js
+
+# testing
+buildquote-app/coverage
+
+# production
+buildquote-app/build
+
+# misc
+buildquote-app/.DS_Store
+buildquote-app/.env.local
+buildquote-app/.env.development.local
+buildquote-app/.env.test.local
+buildquote-app/.env.production.local
+
+buildquote-app/npm-debug.log*
+buildquote-app/yarn-debug.log*
+buildquote-app/yarn-error.log*
