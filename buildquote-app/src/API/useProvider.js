@@ -3,7 +3,7 @@ import fetcher from "./fetcher";
 
 const useProvider = (id, quotes = false) => {
   const { data, error, mutate } = useSWR(
-    `/api/providers/${id}?quotes=${quotes}`,
+    `https://localhost:5001/api/providers/${id}?quotes=${quotes}`,
     fetcher,
     {
       onErrorRetry: (error, key, config, revalidate, { retryCount }) => {

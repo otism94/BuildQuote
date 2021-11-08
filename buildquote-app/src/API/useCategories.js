@@ -3,7 +3,7 @@ import fetcher from "./fetcher";
 
 const useCategories = (products = false) => {
   const { data, error, mutate } = useSWR(
-    `/api/categories?products=${products}`,
+    `https://localhost:5001/api/categories?products=${products}`,
     fetcher,
     {
       onErrorRetry: (error, key, config, revalidate, { retryCount }) => {
