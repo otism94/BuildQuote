@@ -1,7 +1,10 @@
 # BuildQuote
- My ReactJS reflection for the Netmatters SCS training course. I'll make a deployable version at some point, but in order to set up the development version, you'll have to follow these 11(!) simple steps.
+ My ReactJS reflection for the Netmatters SCS training course.
 
 ## Setup
+Check the releases for a quicker setup if you just want to check out the app.
+
+## Debug Setup
 **Note: This project can only be opened in Visual Studio 2022, as it uses the standalone React app template with an `.esproj` which won't work in older versions of VS. I might salvage it in the future, but for now: sorry!**
 
 ### Configuring properties
